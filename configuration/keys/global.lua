@@ -61,10 +61,8 @@ local globalKeys =
 for i = 1, 9 do
   local descr_view, descr_toggle, descr_move, descr_toggle_focus
   if i == 1 or i == 9 then
-    descr_view = {description = 'view tag #', group = 'Workspaces'}
-    descr_toggle = {description = 'toggle tag #', group = 'Workspaces'}
-    descr_move = {description = 'move focused client to tag #', group = 'Workspaces'}
-    descr_toggle_focus = {description = 'toggle focused client on tag #', group = 'Workspaces'}
+    descr_view = {description = 'Goto', group = 'Workspaces'}
+    descr_move = {description = 'Move', group = 'Workspaces'}
   end
   globalKeys =
     awful.util.table.join(
