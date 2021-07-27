@@ -6,7 +6,7 @@ yay -S awesome rofi picom i3lock-fancy xclip ttf-roboto polkit-gnome materia-the
 ```
 ### 2) Clone the configuration
 ```
-git clone https://github.com/LukasAlstrup ~/.config/awesome
+git clone https://github.com/LukasAlstrup/awesome ~/.config/awesome
 ```
 
 ### 3) Set the themes
