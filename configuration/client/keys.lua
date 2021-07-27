@@ -12,7 +12,7 @@ local clientKeys =
       c.fullscreen = not c.fullscreen
       c:raise()
     end,
-    {description = 'toggle fullscreen', group = 'client'}
+    {description = 'Fullscreen', group = 'Windows'}
   ),
   awful.key(
     {modkey},
@@ -20,7 +20,7 @@ local clientKeys =
     function(c)
       c:kill()
     end,
-    {description = 'close', group = 'client'}
+    {description = 'Close', group = 'Windows'}
   )
 )
 
