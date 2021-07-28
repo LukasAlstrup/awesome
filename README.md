@@ -1,3 +1,5 @@
+Awesome WM configuration. Originally created by ChrisTitusTech. I modified it to my liking.
+
 ## Installation
 
 ### 1) Get all the dependencies
